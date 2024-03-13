@@ -10,7 +10,7 @@ def add_ing_ly(string):
 
 # main method
 def main():
-    string = input("Enter the sring: ")
+    string = input("Enter the string: ")
     print(add_ing_ly(string))
 
 if __name__ == "__main__":

@@ -1,4 +1,12 @@
-# 2. Write a Python program to count the number of characters (character frequency) in astring.
+# @Author: Sushant Das
+
+# @Date: 2024-03-13 
+
+# @Last Modified by: Author Name
+
+# @Last Modified time: 2021-02-11 18:00:30
+
+# @Title : Write a Python program to count the number of characters (character frequency) in a string.
 
 # function to count the number of occurrence of a character in a string
 def count_characters(string):

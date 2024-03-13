@@ -10,7 +10,7 @@
 
 # method to lower first n characters of a string
 def lower_n(string, n):
-    begin = (string[:n]).upper()
+    begin = (string[:n]).lower()
     end = string[n:]
     return begin+end
 

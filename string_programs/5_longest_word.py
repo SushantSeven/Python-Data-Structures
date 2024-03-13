@@ -1,3 +1,13 @@
+# @Author: Sushant Das
+
+# @Date: 2024-03-13 
+
+# @Last Modified by: Author Name
+
+# @Last Modified time: 2021-02-11 18:00:30
+
+# @Title : Write a Python function that takes a list of words and returns the length of the longest one.
+
 # function to return the longest string in the list
 def longest(string_list):
     index_list = []

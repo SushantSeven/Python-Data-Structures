@@ -14,7 +14,9 @@ def sort_list(items):
 
 # main method
 def main():
-    print(sort_list([(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]))
+    ls = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+    print(f"The original list is: {ls}")
+    print(f"The sorted list is: {sort_list(ls)}")
 
 if __name__ == "__main__":
     main()

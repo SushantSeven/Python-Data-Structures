@@ -19,7 +19,11 @@ def longer_words(items, n):
 
 # main method
 def main():
-    print(longer_words(['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow'],4))
+    ls = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+    n = 4
+    print(f"The original list is: {ls}")
+    print(f"The value of n is {n}")
+    print(f"Words longer tha {n} are: {longer_words(ls,n)}")
 
 
 if __name__ == "__main__":

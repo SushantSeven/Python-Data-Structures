@@ -14,7 +14,9 @@ def list_sum(elements):
     return sum(elements)
 
 def main():
-    print(list_sum([1,2,4,22,10]))
+    ls = [1,2,4,22,10]
+    print("The original list: ",ls)
+    print(f"The sum of elements: {list_sum(ls)}")
 
 if __name__ == "__main__":
     main()

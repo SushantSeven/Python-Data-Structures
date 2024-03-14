@@ -11,11 +11,13 @@
 # method to clone a copy of a list
 def clone_a_list(items):
     clone = items
-    return clone, items
+    return clone
 
 # main method
 def main():
-    print(clone_a_list([1,22,3,4,1,2,6,6,7,9,0,0]))
+    ls = [1,22,3,4,1,2,6,6,7,9,0,0]
+    print(f"The original list is: {ls}")
+    print(f"The cloned list is: {clone_a_list(ls)}")
 
 if __name__ == "__main__":
     main()

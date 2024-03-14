@@ -18,7 +18,9 @@ def list_permu(items):
 
 # main method
 def main():
-    list_permu(['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow'])
+    ls = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+    print(f"The original list is: {ls}")
+    list_permu(ls)
 
 
 if __name__ == "__main__":

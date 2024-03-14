@@ -14,7 +14,9 @@ def smallest(items):
 
 # main method 
 def main():
-    print(smallest([7,3,3,4,5,6,2]))
+    ls = [7,3,3,4,5,6,2]
+    print(f"The original list is {ls}")
+    print(f"The minimum value is: {smallest([7,3,3,4,5,6,2])}")
 
 if __name__=="__main__":
     main()

@@ -18,7 +18,9 @@ def remove_dupli(items):
 
 # main method
 def main():
-    print(remove_dupli([1,22,3,4,1,2,6,6,7,9,0,0]))
+    ls = [1,22,3,4,1,2,6,6,7,9,0,0]
+    print(f"The original list is: {ls}")
+    print(f"The updated list is: {remove_dupli(ls)}")
 
 if __name__ == "__main__":
     main()

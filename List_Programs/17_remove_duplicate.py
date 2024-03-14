@@ -19,7 +19,9 @@ def remove_duplicate(items):
 
 # main method
 def main():
-    print(remove_duplicate([[10, 20], [40], [30, 56, 25], [10, 20], [33], [40],[33],[40]]))
+    ls = [[10, 20], [40], [30, 56, 25], [10, 20], [33], [40],[33],[40]]
+    print(f"The original list is: {ls}")
+    print(f"The updated lis is: {remove_duplicate(ls)}")
 
 
 if __name__ == "__main__":

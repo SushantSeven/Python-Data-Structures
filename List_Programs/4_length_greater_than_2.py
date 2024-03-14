@@ -10,15 +10,21 @@
 
 # function to print the string whose length is 2 or more and the starting and end element are same
 def len_2_or_more(items):
+    new_items = list()
     count = 0
     for item in items:
         if len(item) >= 2 and item[0] == item[len(item)-1]:
+            new_items.append(item)
             count += 1
-    return count
+    return new_items, count
 
 # main function
 def main():
-    print(len_2_or_more(['abc', 'xyz', 'aba', '1221','aa','cdnc']))
+    ls = ['abc', 'xyz', 'aba', '1221','aa','cdnc']
+    result = len_2_or_more(['abc', 'xyz', 'aba', '1221','aa','cdnc'])
+    print(f"The original list is: {ls}")
+    print(f"The number of elements greater length than 2 are {result[1]}")
+    print("The elements greater length than 2 are: ",*result[0])
 
 if __name__=="__main__":
     main()

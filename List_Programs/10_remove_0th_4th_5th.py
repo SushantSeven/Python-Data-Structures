@@ -17,7 +17,9 @@ def remove_items(items):
 
 # main method
 def main():
-    print(remove_items(['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']))
+    ls = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+    print(f"The original list is: {ls}")
+    print(f"The updated list is: {remove_items(ls)}")
 
 if __name__ == "__main__":
     main()

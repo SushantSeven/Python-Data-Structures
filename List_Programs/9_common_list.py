@@ -17,7 +17,10 @@ def compare_list(list1,list2):
 
 # main method
 def main():
-    print(compare_list([5,7,10,11],[1,22,3,4,2,6,7,9,0] ))
+    ls1 = [5,7,10,11]
+    ls2 = [1,22,3,4,2,6,7,9,0]
+    print(f"The original lists are; {ls1} {ls2}")
+    print(compare_list(ls1,ls2))
 
 if __name__ == "__main__":
     main()

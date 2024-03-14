@@ -10,14 +10,16 @@
 
 # method to calculate the product of the items in a list
 def item_product(items):
-    sum = 1
+    pro = 1
     for item in items:
-        sum *= item
-    return sum
+        pro *= item
+    return pro
 
 # main method
 def main():
-    print(item_product([1,2,3,4,5,6]))
+    ls = [1,2,3,4,5,6]
+    print(f"The original list i: {ls}")
+    print(f"the product of elements: {item_product([1,2,3,4,5,6])}")
 
 if __name__=="__main__":
     main()
